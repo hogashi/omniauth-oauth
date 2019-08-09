@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency "omniauth-rails_csrf_protection"
   gem.add_dependency "oauth"
-  gem.add_development_dependency "bundler", "~> 1.9"
+  gem.add_development_dependency "bundler"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map { |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
